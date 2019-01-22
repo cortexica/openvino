@@ -17,7 +17,7 @@ RUN wget -O /tmp/openvino.tar.gz http://registrationcenter-download.intel.com/ak
     && echo "Installing OpenVino..." \
     && ./install.sh -s silent.cfg \
     && rm -rf /var/lib/apt/lists/* \
-    && rm -rf /tmp/l_openvino*
+    && rm -rf /tmp/*
 
 # Set default runtime to python3
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10

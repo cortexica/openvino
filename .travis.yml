@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker build -t openvino .
+  - docker run -it --rm openvino ./demo.sh

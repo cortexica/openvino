@@ -7,8 +7,8 @@
 
 ### Links
 
-* [Dockerhub repository](https://cloud.docker.com/u/cortexica/repository/docker/cortexica/openvino)
-* [Build status](https://cloud.docker.com/u/cortexica/repository/registry-1.docker.io/cortexica/openvino/timeline)
+* [Dockerhub repository](https://hub.docker.com/r/cortexica/openvino)
+* [Build status](https://hub.docker.com/r/cortexica/openvino/builds)
 
 ### Pull from Dockerhub
 ```bash

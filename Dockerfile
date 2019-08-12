@@ -21,7 +21,7 @@ RUN wget -O /tmp/openvino.tar.gz http://registrationcenter-download.intel.com/ak
 
 # Set default runtime to python3
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
-ENV PYTHONPATH=${PYTHONPATH}:/opt/intel/openvino/python/python3.6
+ENV PYTHONPATH=${PYTHONPATH}:/opt/intel/openvino/python/python3.6:/opt/intel/openvino/python/python3
 
 # Append library path
 ENV LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/opt/intel/openvino/deployment_tools/inference_engine/lib/intel64
